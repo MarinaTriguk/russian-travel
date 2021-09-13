@@ -1,0 +1,10 @@
+.photo-grid {
+  width: 92.5%;
+  padding: 0 3.75%;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(1px, 1fr));
+  grid-auto-rows: 1fr;
+  grid-gap: 1.25vw;
+  justify-items: stretch;
+  align-items: stretch;
+}
