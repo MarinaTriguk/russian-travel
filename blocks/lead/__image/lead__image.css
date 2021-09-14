@@ -1,4 +1,11 @@
 .lead_image {
-  margin: 64px 0 0 0;
-  width: 100%;
+  margin: min(12.5vw, 64px) 0 0 0;
+  width: min(100vw, 984px);
 }
+
+/*
+@media (max-width: 760px) {
+  .lead_image {
+    margin: 12.5vw 0 0 0;
+  }
+}*/

@@ -1,9 +1,17 @@
 .header {
   width: 100%;
   box-sizing:border-box;
-  padding: 28px 48px 0 48px;
+  padding: max(min(5vw, 28px), 16px) max(min(5vw, 48px), 16px) 0 max(min(5vw, 48px), 16px);
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
 }
+/*
 
+@media (max-width: 375px) {
+  .header {
+    padding: 16px 16px 0 16px;
+  }
+}
+
+*/
