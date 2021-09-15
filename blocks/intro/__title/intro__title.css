@@ -1,5 +1,21 @@
 .intro__title {
-  margin: 48px 0 0 0;
+  margin: 0;
   font-size: 54px;
   font-weight: 900;
+}
+
+@media (max-width: 1024px) {
+  .intro__title {
+    margin:  0 0 0;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .intro__title {
+    margin: 0;
+
+    /* Плавный переход от 32px при ширине окна 320px к 54px при ширине окна 768px */
+    font-size: calc(4.9vw + 16px);
+  }
 }

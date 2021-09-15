@@ -1,8 +1,21 @@
 .lead__subtitle {
-  margin: min(5vw, 32px) 0 0 0;
-  font-size: min(5vw, 30px);
-  line-height: min(6vw, 36px);
-  width: min(96vw, 640px);
+  margin: 32px 0 0 0;
+  font-size: 30px;
+  width: 640px;
   text-align: center;
 
+}
+
+@media (max-width: 768px) {
+  .lead__subtitle {
+    margin: calc(3.57vw + 5px) 0 0 0;
+    font-size: calc(3.13vw + 6px);
+    width: calc(74vw + 69px);
+  }
+}
+
+@media (max-width: 320px) {
+  .lead__subtitle {
+    width: 96vw;
+  }
 }

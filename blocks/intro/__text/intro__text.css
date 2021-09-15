@@ -1,8 +1,14 @@
 .intro__text {
   margin: 40px 0 0 0;
-  width: 72%;
+  width: 690px;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 163%;
+  line-height: 26px;
+}
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
 }

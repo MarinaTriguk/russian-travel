@@ -1,11 +1,26 @@
 .lead_image {
-  margin: min(12.5vw, 64px) 0 0 0;
-  width: min(100vw, 984px);
+  margin: 64px 0 0 0;
+  width: 984px;
 }
 
-/*
-@media (max-width: 760px) {
+
+@media (max-width: 1280px) {
   .lead_image {
-    margin: 12.5vw 0 0 0;
+    margin: calc(3.1vw + 24px) 0 0 0;
+    width: calc(21.9vw + 704px);
   }
-}*/
+}
+
+@media (max-width: 1024px) {
+  .lead_image {
+    margin: 56px 0 0 0;
+    width: calc(62.5vw + 288px);
+  }
+}
+
+@media (max-width: 768px) {
+  .lead_image {
+    width: 100%;
+    margin: calc(3.57vw + 29px) 0 0 0;
+  }
+}

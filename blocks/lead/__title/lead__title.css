@@ -1,8 +1,14 @@
 .lead__title {
-  margin: 0 0 0 0;
-  font-size: min(12.5vw, 96px);
+  margin: 0;
+  font-size: 96px;
   font-weight: 900;
-  line-height: min(14vw, 100px);
-  width: min(96vw, 720px);
+  width: 720px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .lead__title {
+    font-size: calc(12.5vw);
+    width: 96vw;
+  }
 }

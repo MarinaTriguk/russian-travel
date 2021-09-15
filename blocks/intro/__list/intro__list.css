@@ -1,6 +1,19 @@
 .intro__list {
    padding: 0;
    margin: 33px 0 92px 0;
-   width: 58%;
+   width: 100%;
    list-style-type: none;
+}
+
+
+@media (max-width: 1024px) {
+   .intro__list {
+      margin: 33px 0 calc(1.56vw + 76px) 0;
+   }
+}
+
+@media (max-width: 320px) {
+   .intro__list {
+      margin: 33px 0 calc(5.36vw + 47px) 0;
+   }
 }
