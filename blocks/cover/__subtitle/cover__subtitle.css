@@ -1,0 +1,10 @@
+.cover__subtitle {
+  z-index: 2;
+  font-size: 18px;
+  width: 360px;
+  text-align: center;
+}
+
+.cover__subtitle:hover {
+  cursor: pointer;
+}

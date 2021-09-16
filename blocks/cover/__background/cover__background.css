@@ -1,0 +1,8 @@
+.cover__background {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+  left: 0;
+  width: 1184px;
+  max-height: 100%;
+}

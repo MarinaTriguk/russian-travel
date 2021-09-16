@@ -1,0 +1,11 @@
+.cover__title {
+  z-index: 2;
+  font-size: 72px;
+  font-weight: 900;
+  width: 560px;
+  text-align: center;
+}
+
+.cover__title:hover {
+  cursor: pointer;
+}
