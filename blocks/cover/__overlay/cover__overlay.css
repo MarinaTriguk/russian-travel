@@ -1,6 +1,6 @@
 .cover__overlay {
   position: absolute;
-  left: 0;
+  left: calc((100vw - 1184px) / 2);
   top: 0;
   z-index: 1;
   width: 1184px;
@@ -16,6 +16,7 @@
 
 @media (max-width: 1184px) {
   .cover__overlay {
+    left: 0;
     width: 100%;
     height: calc(100vw * 740 / 1184);
   }

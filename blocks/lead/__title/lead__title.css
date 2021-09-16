@@ -1,6 +1,7 @@
 .lead__title {
   margin: 0;
   font-size: 96px;
+  line-height: 100px;
   font-weight: 900;
   width: 720px;
   text-align: center;
@@ -9,6 +10,7 @@
 @media (max-width: 768px) {
   .lead__title {
     font-size: calc(12.5vw);
+    line-height: calc(13.2vw);
     width: 96vw;
   }
 }

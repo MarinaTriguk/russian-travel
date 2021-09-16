@@ -3,27 +3,24 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 calc((100vw - 984px) / 2) 0 calc((100vw - 984px) / 2);
+  padding: 0 calc((100vw - 984px) / 2) 20px calc((100vw - 984px) / 2);
 }
 
 @media (max-width: 1280px) {
   .places {
-    /* (21.9vw + 704px) - это ширина изображения выше */
-    padding: 0 calc((100vw - (21.9vw + 704px)) / 2) 0 calc((100vw - (21.9vw + 704px)) / 2);
+    padding: 0 calc((100vw - (21.9vw + 704px)) / 2) 20px calc((100vw - (21.9vw + 704px)) / 2);
   }
 }
 
 @media (max-width: 1024px) {
   .places {
-    /* Плавный переход от отступа 24px при ширине окна 768px к отступу 48px при ширине окна 1024px */
-    padding: 0 calc(9.375vw - 48px) 0 calc(9.375vw - 48px);
+    padding: 0 calc(9.375vw - 48px) 20px calc(9.375vw - 48px);
   }
 }
 
 @media (max-width: 768px) {
   .places {
-    /* Плавный переход от отступа 16px при ширине окна 320px к отступу 24px при ширине окна 768px */
-    padding: 0 calc(1.785vw + 10px) 0 calc(1.785vw + 10px);
+    padding: 0 calc(1.785vw + 10px) 20px calc(1.785vw + 10px);
   }
 }
 @media (max-width: 760px) {
