@@ -20,8 +20,7 @@
 
 @media (max-width: 768px) {
   .photo-grid {
-    /* Плавный переход от отступа 16px при ширине окна 320px к отступу 24px при ширине окна 768px */
-    padding: 0 calc(1.785vw + 10px) 92px calc(1.785vw + 10px);
+    padding: 0 calc(1.785vw + 10px) calc(5.36vw + 47px) calc(1.785vw + 10px);
 
     grid-gap: calc(22px - 0.78vw);
   }

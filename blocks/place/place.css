@@ -9,5 +9,8 @@
 @media (max-width: 760px) {
   .place {
     grid-template-columns: 1fr;
+    grid-column-gap: initial;
+    grid-row-gap: 32px;
+    padding: 0 0 52px 0;
   }
 }

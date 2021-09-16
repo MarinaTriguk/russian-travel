@@ -28,6 +28,6 @@
 }
 @media (max-width: 760px) {
   .places {
-    padding: 0;
+    padding: 0 0 12px 0;
   }
 }
