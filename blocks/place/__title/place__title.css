@@ -3,3 +3,10 @@
   font-size: 72px;
   margin: 0;
 }
+
+@media (max-width: 760px) {
+  .place__title {
+    padding: 0 16px;
+    font-size: 32px;
+  }
+}

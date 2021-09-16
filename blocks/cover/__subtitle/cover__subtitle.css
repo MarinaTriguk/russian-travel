@@ -9,3 +9,10 @@
 .cover__subtitle:hover {
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .cover__subtitle {
+    font-size: calc(0.893vw + 11px);
+    width: calc(16vw + 236px);
+  }
+}

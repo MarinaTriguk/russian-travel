@@ -1,4 +1,8 @@
 .places {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 0 calc((100vw - 984px) / 2) 0 calc((100vw - 984px) / 2);
 }
 
@@ -20,5 +24,10 @@
   .places {
     /* Плавный переход от отступа 16px при ширине окна 320px к отступу 24px при ширине окна 768px */
     padding: 0 calc(1.785vw + 10px) 0 calc(1.785vw + 10px);
+  }
+}
+@media (max-width: 760px) {
+  .places {
+    padding: 0;
   }
 }

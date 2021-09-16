@@ -6,3 +6,9 @@
   width: 1184px;
   max-height: 100%;
 }
+@media (max-width: 1184px) {
+  .cover__background {
+    width: 100%;
+    height: calc(100vw * 740 / 1184);
+  }
+}

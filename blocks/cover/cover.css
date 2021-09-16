@@ -9,3 +9,10 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+@media (max-width: 1184px) {
+  .cover {
+    width: 100%;
+    height: calc(100vw * 740 / 1184);
+  }
+}

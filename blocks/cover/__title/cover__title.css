@@ -10,3 +10,10 @@
 .cover__title:hover {
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .cover__title {
+    font-size: calc(8.93vw + 3px);
+    width: calc(60.7vw + 94px);
+  }
+}

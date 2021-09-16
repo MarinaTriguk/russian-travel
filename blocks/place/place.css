@@ -5,3 +5,9 @@
   grid-row-gap: 48px;
   padding: 0 0 72px 0;
 }
+
+@media (max-width: 760px) {
+  .place {
+    grid-template-columns: 1fr;
+  }
+}
