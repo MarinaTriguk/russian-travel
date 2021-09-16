@@ -4,6 +4,7 @@
   font-weight: 900;
   width: 560px;
   text-align: center;
+  margin: 0 0 32px 0;
 }
 
 .cover__title:hover {
