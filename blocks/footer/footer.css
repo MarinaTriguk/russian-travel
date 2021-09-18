@@ -3,13 +3,7 @@
   flex-direction: row;
   box-sizing: border-box;
   width: 100%;
-  padding: 92px calc((100vw - 984px) / 2) 24px calc((100vw - 984px) / 2);
-}
-
-@media (max-width: 1280px) {
-  .footer {
-    padding: 92px calc((100vw - (21.9vw + 704px)) / 2) 24px calc((100vw - (21.9vw + 704px)) / 2);
-  }
+  padding: 92px 48px 24px 48px;
 }
 
 @media (max-width: 1024px) {

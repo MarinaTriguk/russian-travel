@@ -3,17 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  position: relative;
-  width: 1184px;
-  height: 740px;
-  padding: 0 calc((100vw - 1184px) / 2) 0 calc((100vw - 1184px) / 2);
   color: #FFFFFF;
   text-decoration: none;
 }
 
-@media (max-width: 1184px) {
-  .cover {
-    width: 100%;
-    height: calc(100vw * 740 / 1184);
-  }
-}

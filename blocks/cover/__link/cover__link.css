@@ -1,0 +1,25 @@
+.cover__link {
+  width: calc(100vw - 96px);
+  height: calc((100vw - 96px) * 740 / 1184);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+@media (max-width: 1280px) {
+  .cover__link {
+    width: 1184px;
+    height: 740px;
+  }
+}
+
+@media (max-width: 1184px) {
+  .cover__link {
+    width: 100vw;
+    height: calc(100vw * 740 / 1184);
+  }
+}

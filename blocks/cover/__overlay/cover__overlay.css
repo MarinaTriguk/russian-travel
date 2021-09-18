@@ -1,23 +1,15 @@
 .cover__overlay {
   position: absolute;
-  left: calc((100vw - 1184px) / 2);
+  left: 0;
   top: 0;
   z-index: 1;
-  width: 1184px;
-  height: 740px;
   background: #2A2C2F;
   opacity: 0.3;
   transition: opacity 0.5s ease-in-out;
+  width: 100%;
+  height: 100%;
 }
 
-.cover:hover .cover__overlay {
+.cover__link:hover .cover__overlay {
   opacity: 0.8;
-}
-
-@media (max-width: 1184px) {
-  .cover__overlay {
-    left: 0;
-    width: 100%;
-    height: calc(100vw * 740 / 1184);
-  }
 }
