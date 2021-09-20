@@ -4,6 +4,7 @@
   width: 360px;
   text-align: center;
   margin: 0;
+  line-height: 22px;
 }
 
 .cover__subtitle:hover {
@@ -14,5 +15,6 @@
   .cover__subtitle {
     font-size: calc(0.893vw + 11px);
     width: calc(16vw + 236px);
+    line-height: calc(1.33vw + 12px);
   }
 }
