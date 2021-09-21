@@ -5,16 +5,8 @@
   line-height: 58px;
 }
 
-@media (max-width: 1024px) {
-  .intro__title {
-    margin:  0 0 0;
-  }
-}
-
-
 @media (max-width: 768px) {
   .intro__title {
-    margin: 0;
     /* Плавный переход от 32px при ширине окна 320px к 54px при ширине окна 768px */
     font-size: calc(4.9vw + 16px);
     line-height: calc(5.13vw + 19px);
