@@ -1,6 +1,6 @@
 .lead__caption {
   align-self: flex-start;
-  margin: 8px 0 92px calc((100vw - 984px) / 2);
+  margin: 8px 0 92px calc((100% - 984px) / 2);
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
@@ -13,7 +13,7 @@
 @media (max-width: 1280px) {
   .lead__caption {
     /* (21.9vw + 704px) - это ширина изображения выше */
-    margin: 8px 0 92px calc((100vw - (21.9vw + 704px)) / 2);
+    margin: 8px 0 92px calc((100% - (21.9vw + 704px)) / 2);
   }
 }
 

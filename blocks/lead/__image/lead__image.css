@@ -14,7 +14,7 @@
 @media (max-width: 1024px) {
   .lead__image {
     margin: 56px 0 0 0;
-    width: calc(62.5vw + 288px);
+    width: 100%;
   }
 }
 

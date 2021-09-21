@@ -3,12 +3,12 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  padding: 0 calc((100vw - 984px) / 2) 20px calc((100vw - 984px) / 2);
+  padding: 0 calc((100% - 984px) / 2) 20px calc((100% - 984px) / 2);
 }
 
 @media (max-width: 1280px) {
   .places {
-    padding: 0 calc((100vw - (21.9vw + 704px)) / 2) 20px calc((100vw - (21.9vw + 704px)) / 2);
+    padding: 0 calc((100% - (21.9vw + 704px)) / 2) 20px calc((100% - (21.9vw + 704px)) / 2);
   }
 }
 

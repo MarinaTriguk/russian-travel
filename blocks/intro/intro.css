@@ -1,11 +1,11 @@
 .intro {
-  padding: 0 calc((100vw - 984px) / 2) 0 calc((100vw - 984px) / 2);
+  padding: 0 calc((100% - 984px) / 2) 0 calc((100% - 984px) / 2);
 }
 
 @media (max-width: 1280px) {
   .intro {
     /* (21.9vw + 704px) - это ширина изображения выше */
-    padding: 0 calc((100vw - (21.9vw + 704px)) / 2) 0 calc((100vw - (21.9vw + 704px)) / 2);
+    padding: 0 calc((100% - (21.9vw + 704px)) / 2) 0 calc((100% - (21.9vw + 704px)) / 2);
   }
 }
 
