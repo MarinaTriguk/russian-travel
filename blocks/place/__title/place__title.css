@@ -14,8 +14,13 @@
 
 @media (max-width: 768px) {
   .place__title {
-    padding: 0 16px;
-    font-size: 32px;
+    font-size: calc(2.23vw + 25px);
     line-height: calc(2.46vw + 27px);
+  }
+}
+
+@media (max-width: 760px) {
+  .place__title {
+    padding: 0 16px;
   }
 }
